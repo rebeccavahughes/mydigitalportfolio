@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/codingphoto.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+
+
+h1 {
+    font-family: parisienne;
+    text-align: center;
+    padding: 2vh;
+    background-color: lightgray;
+    font-size: 300%;
+    
+}
+p{
+    padding-left: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: inline-block;
+}
+.profile-photo{
+    background-color: lightgray;
+}
+.navbar{
+    background-color: grey;
+}
+.navbar ul{
+ display: flex;
+ flex-wrap: wrap;
+ list-style: none;
+ margin: 0;
+ padding: 3vh;
+ text-align: right;
+ justify-content: flex-end;
+ 
+}
+
+.navbar li{
+    width: 6%;
+}
+.navbar .navlink{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: azure;
+}
+header{
+    text-align: center;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    
+}
+.social .ripple-centered{
+    padding-left: 3vh;
+    font-size: 180%;
+    color:white;
+}
+div.polaroid {
+    width: 80vh;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 60vh;
+    margin-bottom: 2vh;
+    padding-bottom: 3vh;
+    
+}
+
+img {
+    width: 100%;
+}
+
+div.container{
+    text-align: center;
+    padding-bottom: 3vh;
+
+}
